@@ -1,0 +1,127 @@
+
+<html>
+    <head>
+        
+        <!-- Required meta tags -->
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+       <!-- Bootstrap CSS -->
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   
+       <title>E-VOTING PORTAL</title>
+       
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+           integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"/>
+       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+       <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap" rel="stylesheet" />
+       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+       <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+           <link rel="stylesheet" href="home.css">
+       
+        <link rel="stylesheet" href="home.css">
+    <style>
+        body{
+            background-color:rgba(102, 119, 212, 0.534);
+        }
+    form{border: 2.5px solid rgb(2, 2, 2);
+        
+        margin:1% auto;
+			margin-right: auto; margin-left: auto; width: 35%; 
+			padding-top: 11px;
+    }
+   
+    button{
+      background-color:rgb(41, 129, 243);;
+      color: black;
+      padding: 14px 20px;
+      margin: 8px 0px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      border-radius:10px;
+    
+    }
+    button:hover {
+      padding-right: 25px;
+      opacity : 0.8;
+    }
+    .cancelbtn
+    {
+        float : left;
+      width: auto;
+      padding: 10px 19px;
+      background-color: rgb(41, 129, 243);
+    }
+    .lnbutton
+    {
+    float : right;
+    }
+    
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      border: 2px solid #ccc;
+      box-sizing: border-box;
+    }
+    .active{ background-color: #0c0a72;
+  color: white;}
+    .container{
+    padding : 1%;
+    }
+    </style>
+    </head>
+    <body >
+          
+      
+            <nav class="navbar navbar-expand-lg text-white" style="background-color: rgb(41, 129, 243);">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link index" href="./index.html"><i class="fa fa-fw fa-home"></i>Home</a>
+                </li>
+                <li class="nav-item profilr">
+                <a class="nav-link" href="./profile.html">Profile</a>
+                </li>
+            </ul>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                    <a class="nav-link login" href="./login.html">Login</a>
+                    </li>
+                    <li class="nav-item signup">
+                    <a class="nav-link active" href="./sign-up.html">Sign Up</a>
+                    </li>
+                </ul>
+      </div>
+     
+    </nav>
+    <i><p style="margin-top: 0px; text-align: center; font-size: xx-large; color: rgb(45, 47, 51);"><strong>SIGN UP </strong></p>
+    </i>
+    
+    <form class="center">
+    <div class="container">
+    <b>Election id</b>
+    <input type="text" placeholder="Enter Election id" id="Eid" name="uname" required>
+    <br><br><b>Enter Your Registered Phone No</b>
+    <input type="text" placeholder="Enter Phone No" id="numb" name="numb" required>
+    <br><br><b>Create new Password</b>
+    <input type="Password" placeholder="Create Password" id="pwd" name="pwd" required>
+    <br><br><b>Repeat Password</b>
+    <input type="Password" placeholder="Re enter Password" id="rpwd" name="rpwd" required>
+  
+     <br><input type="checkbox" checked="checked" id="check1">
+    <label><strong>By signing up you agree to <a href="#" style="color:rgb(0, 60, 139)"; >Terms and Conditions</a></strong></label>
+    <a href="./vote.html"><button type="submit"  name="signup"><strong>Sign Up</strong></button></a>
+    </div>
+   
+    </form>
+    <form><div>
+     <b>   Already registered ?
+       </b>               <a href="./login.html"><button><strong>Log in</strong></button></a>
+</div></form>
+    </body>
+    </html>
+    
